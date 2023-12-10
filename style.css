@@ -1,0 +1,18 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+    line-height: 75px;
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 230px;
+    margin: auto;
+}
+#container{
+    text-align: center;
+}
